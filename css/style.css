@@ -17,26 +17,7 @@ body {
   font-size: 14px;
   line-height: 1.8;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--primary-text-color);
-  margin: 0 auto;
-}
-/* Утиліти */
-.ul-item {
-  list-style: none;
-  /* display:flex; */
-  align-items: baseline;
-}
-.a-link {
-  text-decoration: none;
-  /* display:flex; */
-  align-items: center;
-}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -314,9 +295,6 @@ footer {
   margin-bottom: 50px;
   padding-left: 0;
 }
-.bt-item {
-}
-
 .button-list .bt-item + .bt-item {
   margin-left: 8px;
 }
@@ -336,7 +314,6 @@ footer {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
-
 .button-filter:hover,
 .button-filter:focus {
   color: var(--primary-white-color);
