@@ -6,6 +6,8 @@
   --primary-white-color: rgba(255, 255, 255, 1);
   --aside-bg-c: rgba(245, 244, 250, 1);
   --bg-color-button: rgba(245, 244, 250, 1);
+  --social-link-color: #AFB1B8;
+
 }
 
 body {
@@ -83,10 +85,30 @@ body {
 .contact-item {
   display: flex;
   margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  padding-left: 10px;
 }
 .contact-item .contact-child + .contact-child {
   margin-left: 50px;
 }
+.child-icon{
+  width: 16px;
+  height: 12px;
+  margin: 0;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.child-icon-second{
+    width: 10px;
+  height: 16px;
+  margin: 0;
+  margin-right: 10px;
+  fill: currentColor;
+  
+}
+
 .contact-item .item {
   color: var(--paragraph-text-color);
   font-weight: 500;
@@ -101,6 +123,13 @@ body {
 
 /* hero */
 .hero {
+background-image: linear-gradient(to right,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+url("/images/hero-img.jpg") ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
   padding-top: 180px;
   padding-bottom: 220px;
   text-align: center;
@@ -150,6 +179,19 @@ body {
 .hero-list-item .h-l-i-child + .h-l-i-child {
   margin-left: 30px;
 }
+.box-icon{
+  display: flex;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+  background-color:  #F5F4FA;
+  border-radius: 4px;
+  justify-content: center;
+  padding: 25px 100px;
+}
+
+
+
 
 .paragraph {
   margin-top: 0;
@@ -212,6 +254,7 @@ padding-bottom: 30px;
 .team-cont .team-profile + .team-profile {
   margin-left: 30px;
 }
+
 .team-staff-title {
   padding: 0;
   margin-bottom: 50px;
@@ -238,7 +281,36 @@ padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 16px;
 }
+.link-group{
+  display: flex;
+  padding: 0;
+  margin: 0;
+justify-content: center;
+}
+.box-link{
+  display: flex;
+  content: "";
+  width: 44px;
+  height: 44px;
+  border-radius: 30px;
+  justify-content: center;
+  margin-left: 10px;
+  padding: 12px;
+  color: var(--social-link-color);
+}
+.box-link:hover{
+  background-color: var(--accent-color);
+  color: var(--primary-white-color)
+}
+.social-link{
+  fill:currentColor;
+}
+
+
+  
+
 
 /* Footer */
 footer {
