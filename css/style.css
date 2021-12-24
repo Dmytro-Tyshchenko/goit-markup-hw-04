@@ -187,9 +187,11 @@ background-size: cover;
   background-color:  #F5F4FA;
   border-radius: 4px;
   justify-content: center;
-  padding: 25px 100px;
+  
 }
-
+.test-xx{
+  background-color: currentColor;
+}
 
 
 
@@ -283,6 +285,7 @@ padding-bottom: 30px;
   text-align: center;
   margin-bottom: 16px;
 }
+
 .link-group{
   display: flex;
   padding: 0;
@@ -295,11 +298,12 @@ justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 30px;
-  justify-content: center;
   margin-left: 10px;
+  justify-content: center;
   padding: 12px;
   color: var(--social-link-color);
 }
+
 .box-link:hover{
   background-color: var(--accent-color);
   color: var(--primary-white-color)
@@ -307,12 +311,50 @@ justify-content: center;
 .social-link{
   fill:currentColor;
 }
+/*---------- OUR CLIENT */
+.our-client{
+ margin-bottom: 50px;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+/* .logo-xxx{
+ background-color: darkblue;
+} */
+.logo-xxz{
+  background-color: darkgoldenrod;
+}
+.clients-group{
+   display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+.box-logo{
+  display: flex;
+  content: "";
+  margin-left: 30px;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--social-link-color);
+box-sizing: border-box;
+border-radius: 4px;
+justify-content: center;
+color: var(--social-link-color);
+padding: 16px 32px;
 
 
-  
-
-
-/* Footer */
+}
+.box-logo:hover{
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+.test11{
+  display: flex;
+  fill: currentColor;
+}
+/* -----------------------Footer */
 footer {
  background-color: #2f303a;
 }
@@ -353,6 +395,43 @@ footer {
 .contact:focus {
   color: var(--accent-color);
 } 
+
+/* .over-container{
+display: flex;
+flex-direction: row;
+} */
+
+.joint{
+  display: block;
+}
+.joint-group{  
+  display: flex;
+  padding: 0;
+  margin: 0; 
+}
+.joint-link{  
+  display: flex;
+  content: "";
+  width: 44px;
+  height: 44px;
+  border-radius: 30px;
+  margin-left: 10px;
+  justify-content: center;
+  padding: 12px;
+  color: var(--social-link-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.joint-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+
 
                              /* PORTFOLIO */
 
