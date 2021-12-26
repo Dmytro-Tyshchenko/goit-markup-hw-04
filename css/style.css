@@ -178,18 +178,14 @@ body {
   margin-left: 30px;
 }
 .box-icon {
-  display: flex;
-  content: '';
+  /* width: 270px; */
   height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
   justify-content: center;
+  /* padding: 25px 100px; */
 }
-/* .test-xx{
-  background-color: currentColor;
-} */
-
 .paragraph {
   margin-top: 0;
   margin-bottom: 0;
@@ -320,11 +316,9 @@ body {
 }
 .box-logo {
   display: flex;
-  content: '';
   width: 170px;
   height: 92px;
   border: 1px solid var(--social-link-color);
-  box-sizing: border-box;
   border-radius: 4px;
   justify-content: center;
   color: var(--social-link-color);
