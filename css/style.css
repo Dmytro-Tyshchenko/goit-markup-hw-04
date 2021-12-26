@@ -279,7 +279,6 @@ body {
 }
 .box-link {
   display: flex;
-  content: '';
   width: 44px;
   height: 44px;
   border-radius: 30px;
