@@ -121,8 +121,8 @@ body {
 
 /* ---------------------------------------hero */
 .hero {
-  background-image: linear-gradient(to right rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('/images/hero-img.jpg');
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero-img.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -131,9 +131,6 @@ body {
   padding-bottom: 220px;
   text-align: center;
   background-color: #2f303a;
-}
-.test {
-  background-image: url(/images/img1.jpg);
 }
 .hero-title {
   margin-bottom: 30px;
